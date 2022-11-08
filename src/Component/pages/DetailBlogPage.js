@@ -19,7 +19,7 @@ function DetailBlogPage() {
   const fetchSetComment = useBlogStore((state) => state.fetchSetComment);
   const fetchCommentInput = useBlogStore((state) => state.fetchCommentInput);
   useEffect(() => {
-    fetchBlogId(`http:/35.79.180.12:9090/blogs/${idblog}`, key);
+    fetchBlogId(`http://35.79.180.12:9090/blogs/${idblog}`, key);
     fetchSetComment(idblog);
     //eslint-disable-next-line
   }, [idblog, fetchBlogId, key]);

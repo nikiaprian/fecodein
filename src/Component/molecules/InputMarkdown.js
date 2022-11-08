@@ -36,8 +36,7 @@ function InputMarkdown(props) {
         <div className="border-2 bg-[#f2f2f2] border-gray-300 p-0 font-poppins rounded-md shadow-lg">
           <Editor
             ref={editorRef}
-            initialValue="Tutorial Penggunaan silahkan copy link dibawah ini: 
-            https://github.com/Fahmiady11/Tutorial_markdown"
+            initialValue="Isi aja cuyy, tutor follow ig: https://www.instagram.com/nikiaprn"
             placeholder={props.placeholder}
             previewStyle="tab"
             height="600px"
